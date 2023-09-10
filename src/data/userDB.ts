@@ -23,8 +23,8 @@ const data = {
   "current_day": getCurrentDay(),
   "utc_time": getCurrentDate(),
   "track": "backend",
-  "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-  "github_repo_url": "https://github.com/mani/repo",
+  "github_file_url": "https://github.com/manenim/Backend-user-profile-HNG/blob/main/src/index.ts",
+  "github_repo_url": "https://github.com/manenim/Backend-user-profile-HNG",
   "status_code": 200
 }
 

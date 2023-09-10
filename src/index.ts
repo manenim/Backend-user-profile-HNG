@@ -3,15 +3,14 @@ import data from './data/userDB'
 
 const app = express()
 
-
+const PORT = 3000
 
 app.get('/api', (req: Request, res: Response) => {
-let q = req.query
+    let q = req.query
     console.log(q)
-    console.log(typeof data)
     res.status(200).json(data)
 })
 
 
-app.listen('3000', () => console.log(`server listening at port 3000`))
+app.listen(PORT, () => console.log(`server listening at port 3000`))
 
